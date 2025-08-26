@@ -1,0 +1,45 @@
+Selenium + Java + Element Locators {HTML} ==> This helps us to automate  the application or test cases
+
+To gain more control over already automated test cases, we have to develop the framework
+  -TDD [Test Driven Development]
+     -JUnit
+     -TestNG
+  -BDD [Behaviour Driven Development]
+      -Cucumber
+
+      TestNG: All about 3 A's
+      1. Annotations
+          Are used along with methods
+          @BeforeSuite
+          @BeforeTest
+          @BeforeClass
+          @BeforeMethod  : This will be executed before every test case with @Test annotations
+          @Test          : This is used to represent the test case
+          @AfterMethod   : his will be executed after every test case with @Test annotations
+          @AfterClass
+          @AfterTest
+          @AfterSuite
+          ----------------------------------
+          @Parameter
+          @DataProvider
+
+      2. Attributes
+         WE use attributes along with annotations
+           -priority: This is used to set the execution priority of Test cases
+           -Enabled : enabled =false will not execute that test case
+           -dependsOnMethods: This will execute only if depending Test case has passed
+           -alwaysRun: this test will always execute, irrespective its dependent or not
+           -invocationCount:this will run the test case, n number of times
+           -groups: this is used for grouping the test cases
+           -dependsOnGroups:This will execute only if all the test cases of the group passes
+           -timeout: this will pass only if a test cases is executed within given time
+
+           The default order of execution in TestNG is alphabetical order
+
+      3. Assertions
+          This is used to validate the scenario
+          -AssertTrue
+          -AssetFalse
+          -AssertEquals
+          -AssertNotEquals
+          -Hard Assertion Vss SoftAssertion

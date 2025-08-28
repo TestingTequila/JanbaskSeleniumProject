@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="5" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-28T06:59:37 IST" name="Default Suite" finished-at="2025-08-28T07:00:37 IST" duration-ms="60261">
+    <groups>
+    </groups>
+    <test started-at="2025-08-28T06:59:37 IST" name="JanbaskSeleniumProject" finished-at="2025-08-28T07:00:37 IST" duration-ms="60261">
+      <class name="LoginWithPOMPFMAndPCCTestNGDp">
+        <test-method is-config="true" signature="openBrowserAndEnterUrl()[pri:0, instance:LoginWithPOMPFMAndPCCTestNGDp@38c5cc4c]" started-at="2025-08-28T06:59:37 IST" name="openBrowserAndEnterUrl" finished-at="2025-08-28T06:59:52 IST" duration-ms="14930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserAndEnterUrl -->
+        <test-method signature="login1(java.lang.String,java.lang.String,int)[pri:2, instance:LoginWithPOMPFMAndPCCTestNGDp@38c5cc4c]" started-at="2025-08-28T06:59:52 IST" name="login1" data-provider="getData" finished-at="2025-08-28T06:59:58 IST" duration-ms="5634" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jason.roger@janbask.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[24]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login1 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:LoginWithPOMPFMAndPCCTestNGDp@38c5cc4c]" started-at="2025-08-28T06:59:58 IST" name="closeBrowser" finished-at="2025-08-28T07:00:02 IST" duration-ms="3811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="openBrowserAndEnterUrl()[pri:0, instance:LoginWithPOMPFMAndPCCTestNGDp@38c5cc4c]" started-at="2025-08-28T07:00:02 IST" name="openBrowserAndEnterUrl" finished-at="2025-08-28T07:00:15 IST" duration-ms="12924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserAndEnterUrl -->
+        <test-method signature="login1(java.lang.String,java.lang.String,int)[pri:2, instance:LoginWithPOMPFMAndPCCTestNGDp@38c5cc4c]" started-at="2025-08-28T07:00:15 IST" name="login1" data-provider="getData" finished-at="2025-08-28T07:00:19 IST" duration-ms="4625" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ben.fletcher@janbask.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[35]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login1 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:LoginWithPOMPFMAndPCCTestNGDp@38c5cc4c]" started-at="2025-08-28T07:00:19 IST" name="closeBrowser" finished-at="2025-08-28T07:00:20 IST" duration-ms="912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="openBrowserAndEnterUrl()[pri:0, instance:LoginWithPOMPFMAndPCCTestNGDp@38c5cc4c]" started-at="2025-08-28T07:00:20 IST" name="openBrowserAndEnterUrl" finished-at="2025-08-28T07:00:33 IST" duration-ms="12953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowserAndEnterUrl -->
+        <test-method signature="login1(java.lang.String,java.lang.String,int)[pri:2, instance:LoginWithPOMPFMAndPCCTestNGDp@38c5cc4c]" started-at="2025-08-28T07:00:33 IST" name="login1" data-provider="getData" finished-at="2025-08-28T07:00:36 IST" duration-ms="3351" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[forest.grump@janbask.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[54]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login1 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:LoginWithPOMPFMAndPCCTestNGDp@38c5cc4c]" started-at="2025-08-28T07:00:36 IST" name="closeBrowser" finished-at="2025-08-28T07:00:37 IST" duration-ms="877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- LoginWithPOMPFMAndPCCTestNGDp -->
+    </test> <!-- JanbaskSeleniumProject -->
+  </suite> <!-- Default Suite -->
+</testng-results>

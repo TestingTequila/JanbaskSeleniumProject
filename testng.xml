@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/91886/IdeaProjects/JanbaskSeleniumProject">
+        <classes>
+            <class name="pom.LoginWithPOM">
+            </class>
+            <class name="frameworkTDD.Customer">
+                <methods>
+                    <include name="register"/>
+                    <include name="search"/>
+                    <include name="userDetails"/>
+                </methods>
+            </class>
+            <class name="frameworkTDD.Users">
+                <methods>
+                    <include name="login"/>
+                    <include name="openBrowserAndEnterUrl"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

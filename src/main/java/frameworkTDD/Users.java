@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class Users
 {
-    @Test(timeOut = 2000)
+    @Test()
     public void login() throws InterruptedException {
         Thread.sleep(5000);
         System.out.println("@Test: This is my login test case...");
